@@ -8,6 +8,7 @@
     --font-darl-blue:#005AE2;
     --buttob-font-color:#fff;
     --background-color2: #F9FBFD;
+    --background-icon-color: #E2E9F0
 }
 
 
@@ -128,3 +129,53 @@ h2{
     font-size: 75%;
 }
 /* styling why choose us session */
+.scissors-scnd{
+    display: flex;
+    justify-content: space-between;
+    margin: 40px 50px;
+}
+.scissors-scnd1{
+    width: 30%;
+}
+.scissors-scnd-sessn-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 55%;
+}
+.icon-link{
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    background-color: var(--background-icon-color);
+}
+.img-icon{
+    position: absolute;
+    top: 63.3rem; 
+    left: 620px;
+}
+.img-icon2{
+    left: 60.3rem; 
+}
+.img-icon3{
+    top: 78rem; 
+    left: 620px;
+}
+.img-icon4{
+    left: 60.3rem; 
+}
+.icon-head{
+    margin-top: 40px;
+}
+.scnd-grid{
+    margin-top: 30px;
+}
+.first-grid{
+    margin-right: 30px;
+}
+.chz-scissors-cnt{
+    font-size: 85%;
+    line-height: 1.5em;
+    margin-top: 20px;
+}
+
+/* STYLING CARD COMPONENT */
